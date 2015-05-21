@@ -1,0 +1,30 @@
+.feedback__header {
+	color: #eee;
+	font-size: 1.1rem;
+	text-align: center;
+	padding: 20px;
+}
+
+
+.feedback > blockquote {
+	color: #eee;
+	font-size: 1rem;
+	padding: 0 10px;
+	margin-bottom: 25px;
+	quotes: "\201C" "\201D";
+}
+
+.feedback > blockquote::before {
+	display: inline;
+	content: open-quote;
+	font-size: 4rem;
+}
+
+.feedback > blockquote > :first-child {
+	display: inline;
+}
+
+
+.feedback > blockquote > footer {
+	text-align: end;
+}

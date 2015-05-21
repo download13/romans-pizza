@@ -1,0 +1,53 @@
+.contact-header {
+	color: #ddd;
+
+	margin: 5px 20px 40px 20px;
+
+	font-size: 1.3rem;
+	font-family: Georgia, serif;
+}
+
+
+.contact > input {
+	display: block;
+	width: 600px;
+
+	margin: 0 auto 5px auto;
+	padding: 5px;
+	border: 0;
+
+	font-size: 1.2rem;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact > textarea {
+	display: block;
+	width: 600px;
+	max-width: 960px;
+	height: 400px;
+
+	margin: 5px auto;
+	padding: 5px;
+	border: 0;
+
+	font-size: 1.2rem;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+.contact > button {
+	display: block;
+	width: 600px;
+	box-sizing: content-box;
+	text-align: center;
+
+	color: rgb(180, 17, 0);
+	background-color: #cdc6aB;
+
+	margin: 0 auto;
+	padding: 10px 5px;
+	border: 0;
+
+	font-size: 1.2rem;
+	font-weight: bold;
+	font-family: Georgia, serif;
+}

@@ -1,0 +1,93 @@
+/*
+The main column is 1020px wide, but 30 on either side is reserved
+for the backing colors, so 960px is what we have to work with.
+
+1st color: #e4dcbc
+2nd color: #c5b298
+*/
+
+body {
+	background: url('/images/background.jpg') repeat scroll top center #c5b298;
+	background-size: cover;
+
+	font-family: Georgia, serif;
+}
+
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+
+	font-size: 1.1rem;
+	text-align: center;
+}
+
+.header__name {
+	width: 100%;
+	font-family: Georgia, serif;
+	font-size: 2.5rem;
+	font-weight: bold;
+	color: rgb(180, 17, 0);
+	text-shadow: black 1px 1px 3px;
+	margin-bottom: 10px;
+}
+
+.header__address, .header__phone {
+	width: 100%;
+	box-sizing: border-box;
+	display: block;
+	font-size: 1.2rem;
+	color: #622;
+	margin-bottom: 10px;
+}
+
+.header__address img, .header__phone img {
+	width: 1.2rem;
+}
+
+
+nav {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	background-color: #e4dcbc;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav > a {
+	width: 50%;
+	padding: 7px 10px;
+	box-sizing: border-box;
+	text-decoration: none;
+	color: rgb(180, 17, 0);
+	border-radius: 10px;
+}
+
+nav > a:hover {
+	background-color: #c5b298;
+}
+
+
+main {
+	background-color: rgb(78, 8, 0);
+
+	margin-top: 2px;
+}
+
+
+.footer {
+	color: #ccc;
+	background-color: #6B6255;
+
+	text-align: center;
+	padding: 10px 0;
+}
+
+.footer a {
+	color: rgb(78, 8, 0);
+
+	text-decoration: none;
+	font-family: Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,9 @@
+localhost:80 {
+	bind 0.0.0.0
+
+	root public
+
+	ext .html
+
+	gzip
+}
