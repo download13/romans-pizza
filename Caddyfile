@@ -1,4 +1,4 @@
-localhost:80 {
+0.0.0.0:8001 {
 	bind 0.0.0.0
 
 	root public
@@ -6,4 +6,8 @@ localhost:80 {
 	ext .html
 
 	gzip
+
+	errors {
+		404 404.html
+	}
 }
