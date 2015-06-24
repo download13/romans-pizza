@@ -1,12 +1,14 @@
-main {
-	color: #ddd;
-
-	font-family: Helvetica, Arial, sans-serif;
-	font-size: 1rem;
+.rotator-img {
+	width: 100%;
 }
 
-#rotate-holder {
-	text-align: center;
+.home-statement {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1rem;
 
-	background-color: #e4dcbc;
+	padding: 10px;
+
+	background-color: #FFE3B2;
+
+	line-height: 1.4rem;
 }

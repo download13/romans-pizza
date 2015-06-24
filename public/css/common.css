@@ -1,13 +1,5 @@
-/*
-The main column is 1020px wide, but 30 on either side is reserved
-for the backing colors, so 960px is what we have to work with.
-
-1st color: #e4dcbc
-2nd color: #c5b298
-*/
-
 body {
-	background: url('/images/background.jpg') repeat scroll top center #c5b298;
+	background: url('/images/wood_bg.jpg');
 	background-size: cover;
 
 	font-family: Georgia, serif;
@@ -15,10 +7,20 @@ body {
 
 
 .header {
+	background-image: url('/images/pizza-header.jpg');
+	background-color: #F2B63A;
+	background-size: cover;
+	background-position: top center;
+
+	box-shadow: 0 1px 1px 2px black;
+}
+
+.header__inner {
+	background-color: rgba(255, 227, 178, 0.6);
+
 	display: flex;
 	flex-wrap: wrap;
 
-	font-size: 1.1rem;
 	text-align: center;
 }
 
@@ -27,17 +29,19 @@ body {
 	font-family: Georgia, serif;
 	font-size: 2.5rem;
 	font-weight: bold;
-	color: rgb(180, 17, 0);
-	text-shadow: black 1px 1px 3px;
+	color: #C32021;
 	margin-bottom: 10px;
+	text-shadow: black 1px 1px 3px;
 }
 
 .header__address, .header__phone {
-	width: 100%;
+	flex: 1 1 100%;
+	justify-content: space-around;
 	box-sizing: border-box;
 	display: block;
 	font-size: 1.2rem;
-	color: #622;
+	font-weight: bold;
+	color: #C32021;
 	margin-bottom: 10px;
 }
 
@@ -46,40 +50,39 @@ body {
 }
 
 
-nav {
+.nav {
+	margin-top: 5px;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	background-color: #e4dcbc;
-	font-size: 1rem;
+	font-size: 1.19rem;
 	font-weight: bold;
 	text-align: center;
 }
 
-nav > a {
-	width: 50%;
-	padding: 7px 10px;
-	box-sizing: border-box;
-	text-decoration: none;
-	color: rgb(180, 17, 0);
-	border-radius: 10px;
+.nav > a {
+	color: #9E1121;
+	flex: 1 1 50%;
+	display: inline-block;
+	padding: 7px 0;
+	background-color: rgba(255, 227, 178, 0.35);
+	transition: background-color 80ms;
 }
 
-nav > a:hover {
-	background-color: #c5b298;
+.nav > a:hover {
+	color: #C32021;
+	background-color: rgba(255, 227, 178, 1);
 }
 
 
 main {
-	background-color: rgb(78, 8, 0);
-
 	margin-top: 2px;
 }
 
 
 .footer {
 	color: #ccc;
-	background-color: #6B6255;
+	background-color: #775500;
 
 	text-align: center;
 	padding: 10px 0;
