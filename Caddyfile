@@ -7,6 +7,14 @@
 
 	gzip
 
+	header /images/map.svg {
+		Content-Type image/svg+xml
+	}
+
+	header /images/phone.svg {
+		Content-Type image/svg+xml
+	}
+
 	errors {
 		404 404.html
 	}
