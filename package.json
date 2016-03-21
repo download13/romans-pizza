@@ -1,0 +1,23 @@
+{
+  "name": "@download/romans_pizza",
+  "version": "1.0.0",
+  "description": "For practice I re-made the website for a local pizza shop.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "uglifycss": "0.0.20"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/download13/romans-pizza.git"
+  },
+  "author": "Erin Dachtler <download333@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/download13/romans-pizza/issues"
+  },
+  "homepage": "https://github.com/download13/romans-pizza#readme"
+}
